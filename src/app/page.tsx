@@ -5,7 +5,6 @@ import { FinalCTA } from "@/components/sections/FinalCTA";
 import { Hero } from "@/components/sections/Hero";
 import { HowItWorks } from "@/components/sections/HowItWorks";
 import { Problem } from "@/components/sections/Problem";
-import { Team } from "@/components/sections/Team";
 import { Technology } from "@/components/sections/Technology";
 import { WhoWeServe } from "@/components/sections/WhoWeServe";
 import { WhyTalkingLabs } from "@/components/sections/WhyTalkingLabs";
@@ -22,7 +21,6 @@ export default function Home() {
         <HowItWorks />
         <WhoWeServe />
         <Technology />
-        <Team />
         <FinalCTA />
       </main>
       <Footer />
