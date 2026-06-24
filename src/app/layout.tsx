@@ -57,9 +57,6 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full scroll-smooth antialiased`}
     >
-      <head>
-        <link rel="icon" href="/logo.png" />
-      </head>
       <body className="flex min-h-full flex-col bg-background text-foreground">
         {children}
       </body>
